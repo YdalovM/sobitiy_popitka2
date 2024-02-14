@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    
+}
+
+#field {
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: green;
+    left: 2000px;
+    background: url('https://avatars.mds.yandex.net/i?id=5cde637eaa626983c2e8ffc59080254aef4027c3-12216120-images-thumbs&n=13') no-repeat;
+    background-size: 100%;
+}
+#ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+
+    left: 1500px;    background: url('https://avatars.mds.yandex.net/i?id=514b0ee7b91a0a336f4c69b228caa3f0fc9effd3-12147736-images-thumbs&n=13') center no-repeat;
+    background-size: 100%;
+}
